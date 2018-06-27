@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-AU" class="supports cssfilters fixed">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>ABC News But Not Shit</title>
+        <meta name="title" content="ABC News But Not Shit">
+        <meta name="description" content="Australia&#39;s once trusted source of local, national and world news. &quot;Comprehensive&quot;, &quot;independent&quot;, &quot;in-depth&quot; &quot;analysis&quot;, the latest business, sport, weather and more.">
+        <link media="all" rel="stylesheet" type="text/css" href="stylesheets/abc.bundle.2.1.0.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/desktop.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/butnotshit.css">
+    </head>
+<body id="newshome" class="platform-standard news">
+<div id="container_header"><div class="page_margins"><div id="header" class="header">
+    <div class="brand">
+        <a href="http://www.abc.net.au/news/"><img class="print" src="images/news-logo-2017---desktop-print-data.png" alt="ABC News" width="387" height="100">
+            <img class="noprint" src="images/news-logo2017-data.png" alt="ABC News" width="242" height="80">
+
+        </a>
+
+    </div>
+    <div class="butnotshit">but not shit</div>
+      </div></div></div><div class="page_margins" id="main_content">
+  <div class="page section">
+    <div class="subcolumns">
+    <div class="c75l">
+      <!-- B modules - start -->
+      <div class="subcolumns ">
+    <div class="c66l">
+      <!-- First Half: 66 modules - start -->
+      <div class="inline-content uberlist ng3ts show-for-national avoid-orphans copyfit-image-ratio dividers default-image-width-160 heading-labels new-content-check show-teaser-related-doctypes accessible-module-heading transformed">
+  <div class="section module-heading">
+      <h2>Top Stories</h2>
+        </div>
+  <div class="section module-body">
+      <ol>
+
+
+{{#main_stories}}
+
+          <!-- <li class="doctype-article heading-big image-half image-220w"> -->
+          <li class="doctype-article image-half image-220w">
+              <h3>
+                  <a href="{{{link}}}">{{title}}</a>
+              </h3>
+	      <a class="image" aria-hidden="true" tabindex="-1" href="http://www.abc.net.au{{{link}}}">
+	          <img alt="" width="220" height="124" src="http://www.abc.net.au/news/image/{{image_id}}-16x9-220x124.jpg" style="opacity: 1;">
+	      </a>
+              <div class="text-container"><p>{{description}}</p></div>
+          </li>
+
+{{/main_stories}}
+</ol>
+  </div>
+  </div>
+  <!-- First Half: 66 modules - end -->
+    </div>
+    <div class="c33r">
+      <!-- Second Half: 33  modules - start -->
+      <div class="inline-content uberlist uberlist-features show-for-national copyfit boxed-card boxed-card-black teaser-text-small heading-labels transformed">
+  <div class="section module-heading">
+      <h2>Features</h2>
+        </div>
+  <div class="section module-body">
+      <ol>
+
+ {{#side_column}}
+
+          <li class="doctype-article uberlist-has-kicker">
+              <!-- <li class="doctype-article uberlist-has-kicker"> -->
+              <a href="http://www.abc.net.au{{{link}}}">
+	          <span class="image" aria-hidden="true">
+                      <img alt="" width="220" height="124" src="http://www.abc.net.au/news/image/{{image_id}}-16x9-220x124.jpg" style="opacity: 1;">
+	          </span>
+                  <!-- <span class="label-kicker">Opinion<span class="accessibility">: </span></span> -->
+                  <h3>{{title}}</h3></a>
+          </li>
+
+ {{/side_column}}
+
+</ol>
+  </div>
+  </div>
+  <!-- Second Half: 33 modules - end -->
+    </div>
+  </div>
+<!-- B modules - end -->
+    </div>
+    <div class="c25r sidebar">
+    <!-- Sidebar modules - start -->
+  <div class="inline-content uberlist nu body-thumbs show-image-icon-doctypes sidebar body transformed">
+  <div class="section module-heading">
+      <h2><a href="http://www.abc.net.au/news/explainers/">News explained</a></h2>
+        </div>
+  <div class="section module-body">
+    <ol>
+      <li class="doctype-article">
+    <span>
+        <a href="#">
+	<span class="image">
+	<img alt="" width="70" height="70" src="" data-src="/news/image/9513128-1x1-100x100.jpg" style="opacity: 1;">
+	</span>
+<span class="title">TODO</span><span class="teaserText"></span></a></span>
+    </li>
+</ol>
+  </div>
+  </div>
+  <!-- Sidebar modules - end -->
+  </div>
+</div>
+</div>
+</div>
+<nav id="abcFooter" class="global" aria-label="ABC Footer Navigation" data-version="2.1.0">
+ <ul>
+  <li><a class="abcLink" href="http://about.abc.net.au/terms-of-use/">Terms of Use</a></li>
+  <li><a class="abcLink" href="http://about.abc.net.au/abc-privacy-policy/">Privacy Policy</a></li>
+  <li><a class="abcLink" href="http://about.abc.net.au/accessibility-statement/">Accessibility</a></li>
+  <li><a class="abcLink" href="http://about.abc.net.au/talk-to-the-abc/">Contact Us</a></li>
+  <li><a class="abcLink" href="http://about.abc.net.au/terms-of-use/#UseOfContent">© <time>2018</time> ABC</a></li>
+ </ul>
+</nav>
+</body></html>
